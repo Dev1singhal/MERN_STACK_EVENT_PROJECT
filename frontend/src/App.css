@@ -164,6 +164,7 @@ nav svg {
   top: 0;
   left: 0;
   height: 100%;
+  /* background: ; */
 }
 .hero .item {
   display: flex;
@@ -274,11 +275,17 @@ nav svg {
   font-family: "Alex Brush", cursive;
   border: none;
   width: fit-content;
+  cursor: pointer;
 }
 .contact .banner:last-child .item form input:focus,
 .contact .banner:last-child .item form textarea:focus {
   outline: none;
 }
+.contact .banner p a {
+text-decoration: none;
+color: gray;
+}
+ 
 @media (max-width: 830px) {
   .contact .banner {
     flex-direction: column;
@@ -348,6 +355,7 @@ footer .banner .tag div button {
   border: 1px solid #fff7ea;
   padding: 7px 15px;
   border-radius: 8px;
+  cursor: pointer;
 }
 @media (max-width: 500px) {
   footer .banner .tag div {

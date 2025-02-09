@@ -4,7 +4,7 @@ const Services = () => {
   const services = [
     {
       id: 1,
-      url: "/birthday.jpg",
+      url:"/b1.jpg",
       title: "Birthday Planning",
     },
     {
